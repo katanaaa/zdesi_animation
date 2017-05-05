@@ -1,0 +1,22 @@
+body{
+  background: #a5c5c5;
+}
+.logotype{
+  width: auto;
+  height: auto;
+  border: 1px dashed blue;
+}
+@keyframes levitate {
+  0%   {top: 200px;}
+  50%  {top: 190px;}
+  100% {top: 200px;}
+}
+.one{
+  position: relative;
+  top:180px;
+  left: 160px;
+  animation: levitate 2s infinite;
+}
+.two{
+
+}
